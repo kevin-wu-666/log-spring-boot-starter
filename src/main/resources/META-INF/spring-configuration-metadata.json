@@ -1,0 +1,10 @@
+{
+  "properties": [
+	{
+	  "sourceType": "com.wjl.properties.LogConfiguration",
+	  "name": "log.type",
+	  "type": "java.lang.String",
+	  "description": "aspect 基于切面， interceptor 基于拦截器"
+	}
+  ]
+}
