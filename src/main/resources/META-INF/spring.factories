@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.wjl.autoConfigure.LogAutoConfiguration
+com.wjl.autoConfigure.LogAutoConfiguration,com.wjl.autoConfigure.MyWebConfiguration
