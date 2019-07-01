@@ -1,4 +1,17 @@
 #学习自定义Starter总结：
+###如何使用：
+1、在你的项目中引入如下依赖
+```
+    <groupId>com.wjl</groupId>
+    <artifactId>log-spring-boot-starter</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+```
+2、在你的配置文件中添加
+```
+    log.type=aspect #代表使用aspect执行日志打印
+    log.type=interceptor #代表使用interceptor执行日志打印
+```
+******
 ###自定义Starter注意事项
 <pre>步骤：创建SpringBoot项目，删除启动类、test文件夹、Pom文件中的Parent标签、
 在resources文件夹中创建META-INF文件夹，并创建spring.factories文件和spring-configuration-metadata.json文件</pre>
